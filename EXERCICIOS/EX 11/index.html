@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em html5</title>
+<style>
+    h1{
+        padding: 15px 15px 15px 30px;
+        margin: 20px 20px;
+    }
+</style>
+
+
+
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+
+    <p>tente abrir esse site em varios dispotivos diferentes ou simplesmente aumente o tamanho do seu navegador </p>
+
+    <picture>
+
+  <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">     
+  
+  
+  <source media="(max-width:1050px)"srcset="imagens/foto-m.png" type="image/png">
+
+
+        <img src="IMAGENS/foto-g.png" alt="imagem flexível">
+    </picture>
+
+<h1>colocando audio no site</h1>
+<p>aprendendo a colocar midia de som</p>
+
+<!-- <audio src="midia/midia-.mp3"controls autoplay></audio> -->
+<!-- tem essa meneira de cima e a maneira de baixo -->
+
+<audio preload="metadata" autoplay controls loop >
+
+<source src="midia/midia-.mp3" type="audio/mpeg">
+<source src="midia/midia-.ogg" type="audio/ogg">
+<source src="midia/midia-.wav" type="audio wav">
+
+<p>as tentativas de midia de som falharam,<a href="midia/midia-.mp3">clique aqui pra fazer dowload</a></p>
+
+
+
+</audio>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
