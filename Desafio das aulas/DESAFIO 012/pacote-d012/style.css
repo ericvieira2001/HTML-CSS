@@ -7,15 +7,7 @@
 --font-passion:'Passion One', cursive;
 --font-sriracha:'Sriracha', cursive;
 
-
-
-
 }
-
-
-
-
-
 
 *{
     padding: 0px;
@@ -76,12 +68,30 @@ section{
     color: aliceblue;
     
 }
+
 section.imagem > p{
     display:inline-block;
     padding:5px;
     background-color: rgba(0, 0, 0, 0.309);
-    width: 400px;
+    text-shadow: 1px 1px 0px black;
 }
+#img1{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.467);
+ background-image:url(imagens/background001.jpg) ;
+background-size: cover;
+background-position:  center center;
+background-attachment: fixed;
+
+ }
+ 
+#img2{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.467);
+ background-image: url(imagens/background002.jpg);
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+ }
+
 
 footer{
     background-color: black;
