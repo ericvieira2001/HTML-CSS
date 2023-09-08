@@ -1,0 +1,64 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    
+    }
+    body{
+        background-color: rgba(218, 250, 162, 0.709);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1{
+        text-align: center;
+        margin-bottom:10px ;
+        margin-top:20px ;
+        padding: 35px;
+        font-variant: small-caps;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    table{
+       
+        background-color: rgb(251, 251, 251);
+        box-shadow: 1px 11px 11px black;
+        margin: auto;
+        width: 80%;
+        border-collapse: collapse;
+    }
+    thead{
+    background-color: rgba(73, 74, 71, 0.753);
+    font-size: 1.2em;
+    }
+    th{
+        padding: 15px;
+    }
+    tr{
+    
+        height: 22px;   
+    }
+    td{
+        padding: 20px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+    }
+    
+    td:hover{
+        background-color: rgba(59, 56, 56, 0.528);
+    color: white;
+    }
+    
+    
+    .pos{
+    font-size: 1.0em;
+    
+    }
+    .est{
+        text-align: center;
+        
+    }
+    
+    .num{
+        text-align:right ;
+        
+        
+    }
