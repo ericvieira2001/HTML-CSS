@@ -1,4 +1,4 @@
-<meta http-equiv="refresh" content="10.0">
+<meta http-equiv="refresh" content="1.0">
 
 
 <!DOCTYPE html>
@@ -19,45 +19,49 @@ body{
     background-color: rgba(218, 250, 162, 0.709);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#img{
-    background-image: url(img/images\ \(5\).jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    margin-bottom: 25px;
-    box-shadow: 1px 10px 10px black ;
-}
-h1{
-    text-align: center;
-    height: 50px;
-    padding: 135px;
-    font-variant: small-caps;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
+
 main{
     text-align: justify;
     margin: auto;
-    line-height: 30px;
     max-width: 1000px;
     text-indent: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+tbody > tr:nth-child(odd){
+background-color: rgba(156, 222, 57, 0.528);
 }
 
 table{
-   
-    background-color: rgb(251, 251, 251);
-    box-shadow: 1px 11px 11px black;
     margin: auto;
     width: 80%;
     border-collapse: collapse;
+    position: relative;
+}
+
+thead > tr > th{
+    background-color: rgba(3, 67, 3, 0.963);
+    position: sticky;
+    top: -1;
+}
+caption{
+background-color: darkgreen;
+padding: 5px;
+color: aliceblue;
+font-size: 1.2em;
+
+
+
 }
 thead{
-background-color: chartreuse;
+background-color: rgba(3, 67, 3, 0.963);
 font-size: 1.2em;
+color: rgb(255, 255, 255);
 }
 th{
     padding: 15px;
+    
 }
 tr{
 
@@ -66,7 +70,7 @@ tr{
 td{
     padding: 20px;
     border: 1px solid rgb(38, 252, 0);
-    border-collapse: collapse;
+  
     
 }
 a{
@@ -85,11 +89,6 @@ td:hover{
 
 }
 
-
-.pos{
-font-size: 1.0em;
-
-}
 .est{
     text-align: center;
     
@@ -97,32 +96,13 @@ font-size: 1.0em;
 
 .num{
     text-align:right ;
-    
-    
-}
-footer{
-    max-width: auto;
-    background-color: chartreuse;
-}
-#di2{
-
-background-color: rgba(139, 174, 105, 0.811);
-
-border-radius: 10px;
-width: 600px;
-height: 200px;
-
-
-
-}
-nav{
-    
-
-    padding: 30px;
+    width: 50px;
     
 }
-
-
+tfoot{
+  color: rgb(255, 255, 255);
+  background-color: green;
+}
 </style>
 
 
@@ -132,132 +112,123 @@ nav{
 </head>
 <body>
    
-    <div id="img">
-        <header>
-            <h1> População dos estados brasileiros(2020)</h1>
-        </header>
 
-        <nav> 
-        
-        
-        </nav>
-        
-</div>
-    <main>
-       
-
-<p>Em 2020, o Brasil tinha uma população estimada de cerca de 211 milhões de habitantes. Os estados mais populosos do Brasil na época incluíam São Paulo, Minas Gerais e Rio de Janeiro, que continuavam sendo os líderes em termos de população. São Paulo, em particular, era o estado mais populoso, com mais de 45 milhões de habitantes.Além disso, houve variações significativas na taxa de crescimento populacional entre os estados. Alguns estados do Norte e Nordeste do Brasil tinham taxas de crescimento populacional mais altas devido a fatores como natalidade e migração interna.</p>
-    
-    <p>No entanto, para obter informações atualizadas sobre a população dos estados brasileiros em 2020 ou anos subsequentes, sugiro consultar fontes oficiais, como o  <abbr title=" Instituto Brasileiro de Geografia e Estatística">(IBGE)</abbr> ou órgãos governamentais estaduais, que fornecerão os números mais recentes e precisos.</p>
+   
 
 <table>
-
+<caption>população das unidades federativas</caption>
 <thead>
     <tr>
-        <th>POSIÇÃO</th>
-        <th>ESTADO</th>
-        <th>POPULAÇÃO</th>
+        <th scope="col">ESTADO</th>
+        <th scope="col">POPULAÇÃO</th>
      </tr>
 
 </thead>
+<tfoot>
 
+
+    <tr>
+    <th scope="row">POPULAÇÃO GERAL</th>
+    <td class="num"><strong>200.000,000</strong></td>
+</tr>
+
+
+</tfoot>
 
 <tbody>
 
 <tr>  <!-- sp-->
-<td class="pos">1</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo" target="_blank">SÃO PAULO</a></strong></td>
 <td class="num">45 519 045</td>
 
 </tr>
 <tr> <!--mg-->
-<td class="pos">2</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Minas_Gerais" target="_blank">MINAS GERAIS</a></strong></td>
 <td class="num"> 20 538 718</td>
 
 </tr>
 
 <tr> <!--rj-->
-<td class="pos">3</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro" target="_blank">RIO DE JANEIRO</a></strong></td>
 <td class="num"> 16 054 524</td>
 </tr>
 
 
 <tr> <!--ba-->
-<td class="pos">4</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Bahia" target="_blank">BAHIA</a></strong></td>
 <td class="num">14 136 417</td>
 </tr>
 
 <tr> <!--pr-->
-<td class="pos">5</td>
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Paran%C3%A1"target="_blank">PARANÁ</a></strong></td>
 <td class="num">11 443 208</td>
 </tr>
 
 <tr> <!--rs-->
-<td class="pos">6</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul"target="_blank">RIO GRANDE DO SUL</a></strong></td>
 <td class="num">10 880 506</td>
 </tr>
 
 <tr>  <!--PE-->
-<td class="pos">7</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Pernambuco"target="_blank">PERNAMBUCO</a></strong></td>
 <td class="num">9 058 155</td>
 </tr>
 
 <tr> <!--CE-->
-<td class="pos">8</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Cear%C3%A1"target="_blank">CEARÁ</a></strong></td>
 <td class="num">8 791 688</td>
 </tr>
 
 
 <tr>
-<td class="pos">9</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Par%C3%A1"target="_blank">PARÁ</a></strong></td>
 <td class="num">8 116 132</td>
 </tr>
 
 
 <tr>
-<td class="pos">10</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Santa_Catarina"target="_blank">SANTA CATARINA</a></strong></td>
 <td class="num">7 609 601</td>
 </tr>
 
 
 <tr>
-<td class="pos">11</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Goi%C3%A1s" target="_blank">GOIÁS</a></strong></td>
 <td class="num">7 055 228</td>
 </tr>
 
 
 <tr>
-<td class="pos">12</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Maranh%C3%A3o" target="_blank">MARANHÃO</a></strong></td>
 <td class="num">6 775 152</td>
 </tr>
 
 
 <tr>
-<td class="pos">13</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Para%C3%ADba" target="_blank">PARAÍBA</a></strong></td>
 <td class="num">3 974 495</td>
 </tr>
 
 
 <tr>
-<td class="pos">14</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Amazonas" target="_blank">AMAZONAS</a></strong></td>
 <td class="num">3 941 175</td>
 </tr>
 
 <tr> 
-<td class="pos">15</td>
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Esp%C3%ADrito_Santo_(estado)" target="_blank">ESPÍRITO SANTO</a></strong></td>
 <td class="num">3 833 486</td>
  </tr>
@@ -265,58 +236,57 @@ nav{
 
      
 <tr>
-<td class="pos">16</td>     
+    
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Mato_Grosso"target="_blank">MATO GROSSO</a></strong></td>
 <td class="num">3 658 813</td>
 </tr>   
  
 <tr>
-<td class="pos">17</td>
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul"target="_blank">RIO GRANDE DO NORTE</a></strong></td>
 <td class="num">3 302 406</td>
 </tr>
 
 <tr>
-<td class="pos">18</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Piau%C3%AD"target="_blank">PIAUÍ</a></strong></td>
 <td class="num">3 269 200</td>
 </tr>
 
 <tr>
-<td class="pos">19</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Alagoas"target="_blank">ALAGOAS</a></strong></td>
 <td class="num">3 127 511</td>
 </tr>
 
 <tr>
-<td class="pos">20</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)"target="_blank">DISTRITO FEDERAL</a></strong></td>
 <td class="num">2 817 068</td>
 </tr>
 
 
 <tr>
-<td class="pos">21</td>
+
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul"target="_blank">MATO GROSSO DO SUL</a></strong></td>
 <td class="num">2 756 700</td>
 </tr>
 
 
 <tr>
-<td class="pos">22</td>     
+     
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Sergipe"target="_blank">SERGIPE</a></strong></td>
 <td class="num">2 209 558</td>
 </tr> 
 
 <tr>
-<td class="pos">23</td>     
+     
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Rond%C3%B4nia"target="_blank">RONDÔNIA</a></strong></td>
 <td class="num">1 581 016</td>
 </tr> 
 
 
 <tr>
-<td class="pos">24</td>     
+     
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Tocantins" target="_blank">TOCANTINS</a></strong></td>
 <td class="num">1 511 459</td>
 </tr> 
@@ -324,7 +294,7 @@ nav{
 
 
 <tr>
-<td class="pos">25</td>     
+     
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Acre"target="_blank">ACRE</a></strong></td>
 <td class="num">830 026</td>
 </tr> 
@@ -332,46 +302,19 @@ nav{
 
 
 <tr>
-<td class="pos">26</td>          
+          
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Amap%C3%A1"target="_blank">AMAPÁ</a></strong></td>
 <td class="num">733 508</td>
 </tr> 
 
 <tr>
-<td class="pos">27</td>          
+          
 <td class="est"><strong><a href="https://pt.wikipedia.org/wiki/Roraima"target="_blank">RORAIMA</a></strong>
 <td class="num">636 303</td>
-</tr>                
-
+</tr>              
 
 </tbody>
 
 </table>
-
-<div id="di2">
-
-<h2>quer saber mais ?</h2>
-
-</div>
-</main>
-<footer>
-
-    <nav>
-    
-    <a href=""><img src="img/" alt=""><img src="img/bolsa-de-compras.png" alt="">trabalhe conosco</img></img></a>
-    
-    <a href=""><img src="img/chamada-telefonica.png" alt="">fale conosco</img> </a>
-    
-    
-    
-    <a href=""><img src="img/mundo.png" alt="">curiosidades</img></a>
-    
-    
-    </nav>
-    
-    
-    </footer>
-    
-
 </body>
 </html>
