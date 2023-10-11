@@ -48,3 +48,7 @@ aprendendo a criar sites e  gerenciar arquivos.
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 22/index.html">exercicio 22</a>
 
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 23/index.html">exercicio 23</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 24/index.html">exercicio 24</a>
+
