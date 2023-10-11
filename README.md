@@ -2,13 +2,11 @@
 
  HTML E CSS COM O CURSO EM VIDEO
  
-estou aprendendo a criar sites e agora vou gerenciar arquivos
+aprendendo a criar sites e  gerenciar arquivos.
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 01/index.html">exercicio 1</a>
 
-
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 02/index.html">exercicio 2</a>
-
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 03/index.html">exercicio 3</a>
 
@@ -23,3 +21,30 @@ estou aprendendo a criar sites e agora vou gerenciar arquivos
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 08/index.html">exercicio 8</a>
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 09/index.html">exercicio 9</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 10/index.html">exercicio 10</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 11/index.html">exercicio 11</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 12/index.html">exercicio 12</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 13/index.html">exercicio 13</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 14/index.html">exercicio 14</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 15/index.html">exercicio 15</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 16/index.html">exercicio 16</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 17/index.html">exercicio 17</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 18/index.html">exercicio 18</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 19/index.html">exercicio 19</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 20/index.html">exercicio 20</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 21/index.html">exercicio 21</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 22/index.html">exercicio 22</a>
+
