@@ -2,7 +2,7 @@
 
  HTML E CSS COM O CURSO EM VIDEO
  
-aprendendo a criar sites e  gerenciar arquivos.
+APRENDENDO A CRIAR SITES E GERENCIÁ-LOS
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 01/index.html">exercicio 1</a>
 
