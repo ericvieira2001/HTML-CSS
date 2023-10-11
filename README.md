@@ -52,3 +52,7 @@ APRENDENDO A CRIAR SITES E GERENCIÁ-LOS
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 24/index.html">exercicio 24</a>
 
+DESAFIOS DAS AULAS.
+
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/Desafio das aulas/DESAFIO 05/index.html">desafio 1</a>
