@@ -56,3 +56,25 @@ DESAFIOS DAS AULAS.
 
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 05/index.html">desafio 1</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 06/index.html">desafio 2</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 07/index.html">desafio 3</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 09/index.html">desafio 4</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 10/index.html">desafio 5</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 012/index.html">desafio 6</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 10B/index.html">desafio 7</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 12/index.html">desafio 8</a>
+
+<a href="https://ericvieira2001.github.io/HTML-CSS/Desafio das aulas/DESAFIO 13/index.html">desafio 9</a>
+
+
+
+
+
+
