@@ -12,7 +12,7 @@ estou aprendendo a criar sites e agora vou gerenciar arquivos
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 03/index.html">exercicio 3</a>
 
-<a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 04/index.html">exercicio 4</a>
+<a href="https://github.com/ericvieira2001/HTML-CSS/blob/main/EXERCICIOS/EX%2004/Iindex.html">exercicio 4</a>
 
 <a href="https://ericvieira2001.github.io/HTML-CSS/EXERCICIOS/EX 05/index.html">exercicio 5</a>
 
